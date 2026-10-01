@@ -26,7 +26,7 @@ export default function RootLayout() {
           <Outlet />
         </main>
         <footer className="border-t p-4 text-center text-xs text-muted-foreground">
-          ชื่อ-นามสกุล และรหัสนักศึกษาของผู้จัดทำ — แก้เป็นของตัวเอง
+          จัดทำโดย Kanticha Chaichana — รหัสนักศึกษา 680610653
         </footer>
       </SidebarInset>
     </SidebarProvider>

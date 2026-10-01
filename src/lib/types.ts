@@ -14,10 +14,20 @@ interface StudentEmail {
 }
 export type { StudentEmail };
 
+interface Instructor {
+  name: string;
+  email: string;
+}
+export type { Instructor };
+
 interface Course {
   courseId: string;
   courseTitle: string;
-  instructors: string[];
+  instructors: Instructor[];
+  program?: "CPE" | "ISNE";
+  semester?: "1" | "2" | "3";
+  description?: string;
+  notifyByEmail?: boolean;
 }
 export type { Course };
 
